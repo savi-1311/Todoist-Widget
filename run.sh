@@ -1,0 +1,1 @@
+./curl.sh > ./data.json && node ./code.js > ./desktopList.txt
