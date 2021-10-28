@@ -1,7 +1,8 @@
 # Todoist-Widget
 Script to modify Cinnamon Note desklet to display Todoist tasks and updating regularly.
 
-![image](https://user-images.githubusercontent.com/56017960/139194215-b1792022-4239-4f15-ad21-6a16998e5f12.png)
+![image](https://user-images.githubusercontent.com/56017960/139199607-8aaf14f4-7361-4436-b59f-5135490551cf.png)
+
 
 ### External services used-
 * [Todoist](https://developer.todoist.com/rest/v1) REST API
@@ -23,6 +24,10 @@ Script to modify Cinnamon Note desklet to display Todoist tasks and updating reg
    git clone https://github.com/savi-1311/Todoist-Widget
    ```
 * Create a .env file using the template .example.env and add value of Todoist API token. Can be found [here](https://todoist.com/app/settings/integrations).
+* Make all .sh files executable
+  ```
+  chmod +x filename.sh
+  ```
 
 #### 2. Setting up with Note Desklet
 * Open Note Desklet Configuration.
