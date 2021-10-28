@@ -8,7 +8,7 @@ var ist =  nd.toLocaleString();
 
 //Date in YYYY-MM-DD format
 var current_date = "";
-current_date = ist.slice(6,10)+"-"+ist.slice(0,2)+"-"+ist.slice(3,5);
+current_date = ist.slice(6,10)+"-"+ist.slice(3,5)+"-"+ist.slice(0,2);
 
 //Saving Logs to desktopList file
 console.log("ToDoist for "+ current_date + " ⬇️");
