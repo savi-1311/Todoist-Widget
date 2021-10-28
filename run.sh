@@ -1,1 +1,1 @@
-./curl.sh > ./data.json && node ./code.js > ./desktopList.txt
+./taskCurl.sh > ./tasksData.json && ./goalCurl.sh > ./golasData.json &&  node ./code.js > ./desktopList.txt
