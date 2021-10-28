@@ -1,7 +1,7 @@
 # Todoist-Widget
 Script to modify Cinnamon Note desklet to display Todoist tasks and updating regularly.
 
-[Screenshot](image)
+![image](https://user-images.githubusercontent.com/56017960/139194215-b1792022-4239-4f15-ad21-6a16998e5f12.png)
 
 ### External services used-
 * [Todoist](https://developer.todoist.com/rest/v1) REST API
