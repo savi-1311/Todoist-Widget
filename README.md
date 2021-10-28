@@ -1,5 +1,5 @@
 # Todoist-Widget
-Script to modify Cinnamon Note desklet to display Todoist tasks and updating regularly.
+Script to modify Cinnamon Note desklet to display Todoist tasks and update it regularly.
 
 ![image](https://user-images.githubusercontent.com/56017960/139199607-8aaf14f4-7361-4436-b59f-5135490551cf.png)
 
@@ -40,7 +40,7 @@ Script to modify Cinnamon Note desklet to display Todoist tasks and updating reg
 ```
 crontab -e
 ```
-* Add the followin command. This will update the list every 30 mins.
+* Add the following command. This will update the list every 30 mins.
 ```
 SHELL=/bin/bash
 */30  * * * * cd /path/to/the/local/repo/Todoist && ./run.sh
